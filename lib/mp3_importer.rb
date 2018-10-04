@@ -2,9 +2,9 @@
 
 
 class MP3Importer
-  
+  attr_accessor :directory
   
   def initialize (list_of_filenames)
-    list_of_filenames.each{ |filename| Song.initialize(filename) }
+    self.direc
   end
 end
