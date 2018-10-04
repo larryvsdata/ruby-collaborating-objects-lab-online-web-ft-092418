@@ -11,7 +11,9 @@ end
   def new_by_filename (filename ):
     song_name = filename.split("-")[1]
     artist_name = filename.split("-")[0]
-    @artist= Artist.
+    @artist= Artist.find_or_create_by_name(artist_name)
+    song=self.new(song_name)
+    
     
   end
   
