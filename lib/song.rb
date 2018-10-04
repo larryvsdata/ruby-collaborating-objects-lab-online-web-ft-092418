@@ -11,6 +11,7 @@ end
   def new_by_filename (filename ):
     song_name = filename.split("-")[1]
     
+    
   end
   
   
