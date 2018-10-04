@@ -14,6 +14,9 @@ end
     end
   end
   
+  def new_by_filename (filename ):
+    
+  end
   
   
 end
