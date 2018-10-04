@@ -6,16 +6,10 @@ class Song
   
 end
  
-  def artist=(name)
-    if (self.artist.nil?)
-      self.artist = Artist.new(name)
-    else
-      self.artist.name = name
-    end
-  end
+
   
   def new_by_filename (filename ):
-    
+    song_name = filename.split("-")[1]
     
   end
   
