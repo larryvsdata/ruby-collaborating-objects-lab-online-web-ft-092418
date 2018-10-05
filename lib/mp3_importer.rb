@@ -2,7 +2,7 @@
 
 
 class MP3Importer
-  attr_accessor :path s
+  attr_accessor :path 
   
   def initialize (directory)
     self.path = directory
