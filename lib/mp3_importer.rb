@@ -2,7 +2,7 @@
 
 
 class MP3Importer
-  attr_accessor :path , :files
+  attr_accessor :path s
   
   def initialize (directory)
     self.path = directory
@@ -11,5 +11,7 @@ class MP3Importer
   def files 
     Dir.entries(@path).select {|f| !File.directory? f}
   end
+  
+  
   
 end
