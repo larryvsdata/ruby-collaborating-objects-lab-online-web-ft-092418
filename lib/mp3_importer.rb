@@ -13,6 +13,10 @@ class MP3Importer
     files = files.map{ |file| file if file.include?(".mp3")}
   end
   
+   def import
+    self.files.each{ |filename| Song.new_by_filename(filename) }
+  end
+  
   
   
 end
